@@ -16,7 +16,7 @@ export const actions = {
     default: async (event: RequestEvent) => {
         const form = await superValidate(event, schemaLogin);
 
-        if (!form.valid) return fail(400, {form});
+        // if (!form.valid) return fail(400, {form});
 
         const result = await authController.postAuth(event, form.data);
 

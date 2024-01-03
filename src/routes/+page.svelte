@@ -12,11 +12,11 @@
 </script>
 
 
-<div class="flex">
-    <button on:click={handleClick} class="px-3 px-2 bg-primary-500 cursor-pointer">
-        Button
-    </button>
-</div>
+<!--<div class="flex">-->
+<!--    <button on:click={handleClick} class="px-3 px-2 bg-primary-500 cursor-pointer">-->
+<!--        Button-->
+<!--    </button>-->
+<!--</div>-->
 
 
-<RangeSlider name="range-slider" bind:value={value} max={25} step={1} ticked>Label</RangeSlider>
+<RangeSlider name="range-slider" bind:value={value} max={25} step={1} ticked>Range</RangeSlider>

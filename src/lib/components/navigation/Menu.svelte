@@ -8,8 +8,8 @@
     const drawerStore = getDrawerStore();
     const role = $page.data?.user?.role;
     const menuItems = [
-        {value: 'students', url: '/students', prefetch: true},
-        {value: 'users', url: '/users', prefetch: true},
+        {value: 'Account', url: '/account', prefetch: true},
+        {value: 'Missions', url: '/missions', prefetch: true},
     ];
 
 
