@@ -1,0 +1,17 @@
+{
+  "id": "mig_cmajpladte68ein48sog",
+  "parentID": "mig_cmajpcidte68ein48sng",
+  "checksum": "1:efd965f198b33dcb87752eea7f8728305e045a1bb45c50712720050553a77482",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "email",
+          "type": "email",
+          "unique": true
+        },
+        "table": "Users"
+      }
+    }
+  ]
+}

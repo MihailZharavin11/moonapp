@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Tal-Man-s-workspace-jntaoi.eu-central-1.xata.sh/db/moon-db",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
